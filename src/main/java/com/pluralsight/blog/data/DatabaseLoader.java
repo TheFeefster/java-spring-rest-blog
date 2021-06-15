@@ -22,9 +22,9 @@ public class DatabaseLoader implements ApplicationRunner {
     public List<Post> randomPosts = new ArrayList<>();
     public List<Author> authors = new ArrayList<>();
 
-    private final PostRepository postRepository{
+  /*  private final PostRepository postRepository{
     PostRepository = this.postRepository;
-    }
+    }*/
 
     public DatabaseLoader() {
     }
